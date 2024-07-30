@@ -1,4 +1,4 @@
-name: CI/CD workflow for Maven Build and Sonar Code scan
+name: CI/CD workflow for Maven Build and Sonar Code
 on:
   push:
     branches:
@@ -23,7 +23,7 @@ jobs:
         projectBaseDir: .
         args: >
          
-          -Dsonar.projectKey=my-Java-web-app
+          -Dsonar.projectKey=niqjavaapp
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
