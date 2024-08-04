@@ -23,7 +23,7 @@ jobs:
         projectBaseDir: .
         args: >
          
-          -Dsonar.projectKey=niqjavaapp
+          -Dsonar.projectKey=CMOTS
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
