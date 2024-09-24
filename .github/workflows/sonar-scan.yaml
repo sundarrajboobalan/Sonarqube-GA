@@ -23,7 +23,7 @@ jobs:
         projectBaseDir: .
         args: >
          
-          -Dsonar.projectKey=NIQAPP-Discover
+          -Dsonar.projectKey=NIQAPP-Discover1
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
